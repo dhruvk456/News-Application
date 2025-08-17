@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+         color: var(--primary-text-color);
+         font-family: "poppins",sans-serif;
+         background-color: #bcd9f4ae;
+    }
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+    button {
+      background-color: #183b56;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    h2{
+        text-align: center;
+    }
+    #cnt{
+        margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 id="cnt">Contact Form</h2>
+
+  <form action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <h2>Contact Links</h2>
+  <br>
+  <p style="text-align: center;">Feel free to contact me via:</p>
+
+  <ul style="text-align: center;">
+    <br><li class="hover-link nav-items">WhatsApp: <a href="https://wa.me/7302337110" target="_blank">Click here</a></li><br>
+    <li class="hover-link nav-items">Phone Number: <a href="tel:+7302337110">7302337110</a></li><br>
+    <li class="hover-link nav-items">LinkedIn: <a href="https://www.linkedin.com/in/yourusername" target="_blank">Visit profile</a></li><br>
+  </ul>
+  <br><br><p style="text-align: center;">&copy; 2024 Star-News  All rights reserved.</p>
+<script src="script.js"></script>
+</body>
+</html>
